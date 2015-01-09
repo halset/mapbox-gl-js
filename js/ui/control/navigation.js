@@ -10,7 +10,7 @@ function Navigation(opts) { this.opts = opts; }
 
 Navigation.prototype = util.inherit(Control, {
     onAdd(map) {
-        var className = 'mapboxgl-ctrl-nav-' + (this.opts && this.opts.position || 'topright') + ' mapboxgl-ctrl-nav';
+        var className = 'mapboxgl-ctrl-nav';
 
         var container = this._container = DOM.create('div', className, map.container);
 

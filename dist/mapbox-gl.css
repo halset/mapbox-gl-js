@@ -14,6 +14,22 @@
     cursor: -moz-grabbing;
     cursor: grabbing;
 }
+.mapboxgl-ctrl-topleft {
+    left: 10px;
+    top: 10px;
+}
+.mapboxgl-ctrl-topright {
+    right: 10px;
+    top: 10px;
+}
+.mapboxgl-ctrl-bottomleft {
+    left: 10px;
+    bottom: 10px;
+}
+.mapboxgl-ctrl-bottomright {
+    right: 10px;
+    bottom: 10px;
+}
 .mapboxgl-ctrl-nav {
     position: absolute;
     border-radius: 4px;
@@ -21,28 +37,6 @@
     overflow: hidden;
     background: #fff;
 }
-
-.mapboxgl-ctrl-nav-topleft {
-    left: 10px;
-    top: 10px;
-}
-
-.mapboxgl-ctrl-nav-topright {
-    right: 10px;
-    top: 10px;
-}
-
-.mapboxgl-ctrl-nav-bottomleft {
-    left: 10px;
-    bottom: 10px;
-}
-
-.mapboxgl-ctrl-nav-bottomright {
-    right: 10px;
-    bottom: 10px;
-}
-
-
 .mapboxgl-ctrl-nav > a {
     width: 26px;
     height: 26px;
