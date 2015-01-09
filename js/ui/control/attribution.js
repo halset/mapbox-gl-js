@@ -10,7 +10,6 @@ function Attribution() {}
 
 Attribution.prototype = util.inherit(Control, {
     onAdd(map) {
-        this.attrib = true;
         var className = 'mapboxgl-ctrl-attrib',
             container = this._container = DOM.create('div', className, map.container);
 
